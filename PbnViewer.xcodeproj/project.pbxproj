@@ -14,6 +14,10 @@
 		A214D72729F85EF7003E0F96 /* PbnViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214D72629F85EF7003E0F96 /* PbnViewerTests.swift */; };
 		A214D73129F85EF7003E0F96 /* PbnViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214D73029F85EF7003E0F96 /* PbnViewerUITests.swift */; };
 		A214D73329F85EF7003E0F96 /* PbnViewerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214D73229F85EF7003E0F96 /* PbnViewerUITestsLaunchTests.swift */; };
+		A214D74429F8619B003E0F96 /* ContractBridge in Frameworks */ = {isa = PBXBuildFile; productRef = A214D74329F8619B003E0F96 /* ContractBridge */; };
+		A214D74729F864FE003E0F96 /* ContractBridgeUI in Frameworks */ = {isa = PBXBuildFile; productRef = A214D74629F864FE003E0F96 /* ContractBridgeUI */; };
+		A214D74A29F869E4003E0F96 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214D74929F869E4003E0F96 /* ModelData.swift */; };
+		A214D74C29F86CCB003E0F96 /* TestData.pbn in Resources */ = {isa = PBXBuildFile; fileRef = A214D74B29F86CCB003E0F96 /* TestData.pbn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,8 @@
 		A214D72C29F85EF7003E0F96 /* PbnViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PbnViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A214D73029F85EF7003E0F96 /* PbnViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PbnViewerUITests.swift; sourceTree = "<group>"; };
 		A214D73229F85EF7003E0F96 /* PbnViewerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PbnViewerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A214D74929F869E4003E0F96 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		A214D74B29F86CCB003E0F96 /* TestData.pbn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TestData.pbn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A214D74429F8619B003E0F96 /* ContractBridge in Frameworks */,
+				A214D74729F864FE003E0F96 /* ContractBridgeUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +103,7 @@
 		A214D71329F85EF6003E0F96 /* PbnViewer */ = {
 			isa = PBXGroup;
 			children = (
+				A214D74829F869AD003E0F96 /* Models */,
 				A214D71429F85EF6003E0F96 /* PbnViewerApp.swift */,
 				A214D71629F85EF6003E0F96 /* ContentView.swift */,
 				A214D71829F85EF7003E0F96 /* Assets.xcassets */,
@@ -129,6 +138,15 @@
 			path = PbnViewerUITests;
 			sourceTree = "<group>";
 		};
+		A214D74829F869AD003E0F96 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A214D74B29F86CCB003E0F96 /* TestData.pbn */,
+				A214D74929F869E4003E0F96 /* ModelData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +163,10 @@
 			dependencies = (
 			);
 			name = PbnViewer;
+			packageProductDependencies = (
+				A214D74329F8619B003E0F96 /* ContractBridge */,
+				A214D74629F864FE003E0F96 /* ContractBridgeUI */,
+			);
 			productName = PbnViewer;
 			productReference = A214D71129F85EF6003E0F96 /* PbnViewer.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +239,10 @@
 				Base,
 			);
 			mainGroup = A214D70829F85EF6003E0F96;
+			packageReferences = (
+				A214D74229F8619B003E0F96 /* XCRemoteSwiftPackageReference "ContractBridge" */,
+				A214D74529F864FE003E0F96 /* XCRemoteSwiftPackageReference "ContractBridgeUI" */,
+			);
 			productRefGroup = A214D71229F85EF6003E0F96 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A214D71D29F85EF7003E0F96 /* Preview Assets.xcassets in Resources */,
+				A214D74C29F86CCB003E0F96 /* TestData.pbn in Resources */,
 				A214D71929F85EF7003E0F96 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +288,7 @@
 			files = (
 				A214D71729F85EF6003E0F96 /* ContentView.swift in Sources */,
 				A214D71529F85EF6003E0F96 /* PbnViewerApp.swift in Sources */,
+				A214D74A29F869E4003E0F96 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,6 +632,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A214D74229F8619B003E0F96 /* XCRemoteSwiftPackageReference "ContractBridge" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RalphLipe/ContractBridge";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		A214D74529F864FE003E0F96 /* XCRemoteSwiftPackageReference "ContractBridgeUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RalphLipe/ContractBridgeUI/";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A214D74329F8619B003E0F96 /* ContractBridge */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A214D74229F8619B003E0F96 /* XCRemoteSwiftPackageReference "ContractBridge" */;
+			productName = ContractBridge;
+		};
+		A214D74629F864FE003E0F96 /* ContractBridgeUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A214D74529F864FE003E0F96 /* XCRemoteSwiftPackageReference "ContractBridgeUI" */;
+			productName = ContractBridgeUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A214D70929F85EF6003E0F96 /* Project object */;
 }

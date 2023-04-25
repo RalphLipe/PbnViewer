@@ -6,16 +6,29 @@
 //
 
 import SwiftUI
+import ContractBridgeUI
+import ContractBridge
+
+extension PBNGame: Identifiable {
+    public var id: Int { return self.board! }
+}
 
 struct ContentView: View {
+    @EnvironmentObject var modelData: ModelData
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            VStack {
+                List {
+                    ForEach(modelData.boards) {
+                        board in
+                        NavigationLink(destination: PBNGameView(pbnGame: board)) {
+                            Text("Board \(board.board!)")
+                        }
+                    }
+                }
+            }
         }
-        .padding()
+        .padding().navigationTitle("Boards")
     }
 }
 
