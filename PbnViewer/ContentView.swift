@@ -21,7 +21,7 @@ struct ContentView: View {
                 List {
                     ForEach(modelData.boards) {
                         board in
-                        NavigationLink(destination: PBNGameView(pbnGame: board)) {
+                        NavigationLink(destination: BoardView(board: board)) {
                             Text("Board \(board.board!)")
                         }
                     }
