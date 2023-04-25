@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E310EADD-B095-4174-942C-19487C2E6090"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3EA06280-56B4-402B-9440-095B43602EC3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/PbnViewer-dhyhzhahnwdknocdbmrnacizhuqo/SourcePackages/checkouts/ContractBridgeUI/Sources/ContractBridgeUI/PBNGameView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "3EA06280-56B4-402B-9440-095B43602EC3 - 2ed1824089b9d3fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(Swift.Optional&lt;SwiftUI.Text&gt;, Swift.Optional&lt;SwiftUI.Text&gt;, Swift.Optional&lt;SwiftUI.Text&gt;, Swift.Optional&lt;SwiftUI.Text&gt;, Swift.Optional&lt;SwiftUI.Text&gt;, Swift.Optional&lt;ContractBridgeUI.HandsView&gt;, Swift.Optional&lt;SwiftUI.Text&gt;, SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI.Text, SwiftUI.Text&gt;, Swift.Optional&lt;SwiftUI.Text&gt;&gt;, Swift.Optional&lt;SwiftUI._ConditionalContent&lt;SwiftUI.Text, SwiftUI.Text&gt;&gt;, Swift.Optional&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;)&gt; in ContractBridgeUI.PBNGameView.body.getter : some"
+                  moduleName = "PbnViewer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ralphlipe/Library/Developer/Xcode/DerivedData/PbnViewer-dhyhzhahnwdknocdbmrnacizhuqo/SourcePackages/checkouts/ContractBridgeUI/Sources/ContractBridgeUI/PBNGameView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "1924">
+               </Location>
+               <Location
+                  uuid = "3EA06280-56B4-402B-9440-095B43602EC3 - 2ed1824089b9d3fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(Swift.Optional&lt;SwiftUI.Text&gt;, Swift.Optional&lt;SwiftUI.Text&gt;, Swift.Optional&lt;SwiftUI.Text&gt;, Swift.Optional&lt;SwiftUI.Text&gt;, Swift.Optional&lt;SwiftUI.Text&gt;, Swift.Optional&lt;ContractBridgeUI.HandsView&gt;, Swift.Optional&lt;SwiftUI.Text&gt;, SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI.Text, SwiftUI.Text&gt;, Swift.Optional&lt;SwiftUI.Text&gt;&gt;, Swift.Optional&lt;SwiftUI._ConditionalContent&lt;SwiftUI.Text, SwiftUI.Text&gt;&gt;, Swift.Optional&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;)&gt; in ContractBridgeUI.PBNGameView.body.getter : some"
+                  moduleName = "PbnViewer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ralphlipe/Library/Developer/Xcode/DerivedData/PbnViewer-dhyhzhahnwdknocdbmrnacizhuqo/SourcePackages/checkouts/ContractBridgeUI/Sources/ContractBridgeUI/PBNGameView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "2000">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "65B0A953-472A-4C62-8EEE-319E2673DFB5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PbnViewer/Models/ModelData.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "init()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "65B0A953-472A-4C62-8EEE-319E2673DFB5 - 70e9fab5ffa48f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PbnViewer.ModelData.init() -&gt; PbnViewer.ModelData"
+                  moduleName = "PbnViewer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ralphlipe/Dev%20Projects/PbnViewer/PbnViewer/Models/ModelData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "260">
+               </Location>
+               <Location
+                  uuid = "65B0A953-472A-4C62-8EEE-319E2673DFB5 - 70e9fab5ffa48f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PbnViewer.ModelData.init() -&gt; PbnViewer.ModelData"
+                  moduleName = "PbnViewer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ralphlipe/Dev%20Projects/PbnViewer/PbnViewer/Models/ModelData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "452">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

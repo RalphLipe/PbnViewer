@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "contractbridge",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RalphLipe/ContractBridge",
+      "state" : {
+        "branch" : "main",
+        "revision" : "384b0de707d8bbad6b0f1bbf874cbd218177107a"
+      }
+    },
+    {
+      "identity" : "contractbridgeui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RalphLipe/ContractBridgeUI/",
+      "state" : {
+        "branch" : "main",
+        "revision" : "4934553355be9e412836844517c3e8ad355975d8"
+      }
+    }
+  ],
+  "version" : 2
+}
