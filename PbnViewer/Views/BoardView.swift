@@ -11,12 +11,17 @@ import ContractBridgeUI
 
 struct BoardView: View {
     var board: PBNGame
+    @State private var dealMode: Bool = false
     
     var body: some View {
-        // TODO: JAMES LIPE.  ADD STUFF TO DEAL A HAND HERE...
-        // Instead of just showing the data use the board.deal.hands
-        // to show an arrow for the direction where the card can go.
-        PBNGameView(pbnGame: board)
+        VStack {
+            Toggle("Deal mode", isOn: $dealMode).padding()
+            if dealMode {
+                InferenceDealView(pbnGame: board)
+            } else {
+                PBNGameView(pbnGame: board)
+            }
+        }
     }
 }
 

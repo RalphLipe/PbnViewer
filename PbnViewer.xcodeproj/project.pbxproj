@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7221B1652CA27058006AE9EC /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7221B1622CA27058006AE9EC /* BoardView.swift */; };
+		7221B1662CA27058006AE9EC /* InferenceDealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7221B1632CA27058006AE9EC /* InferenceDealView.swift */; };
+		7221B1692CA27062006AE9EC /* InferenceDealViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7221B1672CA27062006AE9EC /* InferenceDealViewModel.swift */; };
+		7221B16C2CA27199006AE9EC /* CardInference in Frameworks */ = {isa = PBXBuildFile; productRef = 7221B16B2CA27199006AE9EC /* CardInference */; };
 		A214D71529F85EF6003E0F96 /* PbnViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214D71429F85EF6003E0F96 /* PbnViewerApp.swift */; };
 		A214D71729F85EF6003E0F96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214D71629F85EF6003E0F96 /* ContentView.swift */; };
 		A214D71929F85EF7003E0F96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A214D71829F85EF7003E0F96 /* Assets.xcassets */; };
@@ -18,7 +22,6 @@
 		A214D74729F864FE003E0F96 /* ContractBridgeUI in Frameworks */ = {isa = PBXBuildFile; productRef = A214D74629F864FE003E0F96 /* ContractBridgeUI */; };
 		A214D74A29F869E4003E0F96 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214D74929F869E4003E0F96 /* ModelData.swift */; };
 		A214D74C29F86CCB003E0F96 /* TestData.pbn in Resources */ = {isa = PBXBuildFile; fileRef = A214D74B29F86CCB003E0F96 /* TestData.pbn */; };
-		A214D75029F87701003E0F96 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214D74F29F87701003E0F96 /* BoardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7221B1622CA27058006AE9EC /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		7221B1632CA27058006AE9EC /* InferenceDealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InferenceDealView.swift; sourceTree = "<group>"; };
+		7221B1672CA27062006AE9EC /* InferenceDealViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InferenceDealViewModel.swift; sourceTree = "<group>"; };
 		A214D71129F85EF6003E0F96 /* PbnViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PbnViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A214D71429F85EF6003E0F96 /* PbnViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PbnViewerApp.swift; sourceTree = "<group>"; };
 		A214D71629F85EF6003E0F96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,7 +58,6 @@
 		A214D73229F85EF7003E0F96 /* PbnViewerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PbnViewerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A214D74929F869E4003E0F96 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		A214D74B29F86CCB003E0F96 /* TestData.pbn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TestData.pbn; sourceTree = "<group>"; };
-		A214D74F29F87701003E0F96 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7221B16C2CA27199006AE9EC /* CardInference in Frameworks */,
 				A214D74429F8619B003E0F96 /* ContractBridge in Frameworks */,
 				A214D74729F864FE003E0F96 /* ContractBridgeUI in Frameworks */,
 			);
@@ -82,12 +88,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7221B1642CA27058006AE9EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7221B1622CA27058006AE9EC /* BoardView.swift */,
+				7221B1632CA27058006AE9EC /* InferenceDealView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7221B1682CA27062006AE9EC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7221B1672CA27062006AE9EC /* InferenceDealViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7221B16A2CA27199006AE9EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A214D70829F85EF6003E0F96 = {
 			isa = PBXGroup;
 			children = (
 				A214D71329F85EF6003E0F96 /* PbnViewer */,
 				A214D72529F85EF7003E0F96 /* PbnViewerTests */,
 				A214D72F29F85EF7003E0F96 /* PbnViewerUITests */,
+				7221B16A2CA27199006AE9EC /* Frameworks */,
 				A214D71229F85EF6003E0F96 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,6 +136,8 @@
 		A214D71329F85EF6003E0F96 /* PbnViewer */ = {
 			isa = PBXGroup;
 			children = (
+				7221B1682CA27062006AE9EC /* ViewModels */,
+				7221B1642CA27058006AE9EC /* Views */,
 				A214D74829F869AD003E0F96 /* Models */,
 				A214D71429F85EF6003E0F96 /* PbnViewerApp.swift */,
 				A214D71629F85EF6003E0F96 /* ContentView.swift */,
@@ -119,7 +152,6 @@
 			isa = PBXGroup;
 			children = (
 				A214D71C29F85EF7003E0F96 /* Preview Assets.xcassets */,
-				A214D74F29F87701003E0F96 /* BoardView.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -169,6 +201,7 @@
 			packageProductDependencies = (
 				A214D74329F8619B003E0F96 /* ContractBridge */,
 				A214D74629F864FE003E0F96 /* ContractBridgeUI */,
+				7221B16B2CA27199006AE9EC /* CardInference */,
 			);
 			productName = PbnViewer;
 			productReference = A214D71129F85EF6003E0F96 /* PbnViewer.app */;
@@ -245,6 +278,7 @@
 			packageReferences = (
 				A214D74229F8619B003E0F96 /* XCRemoteSwiftPackageReference "ContractBridge" */,
 				A214D74529F864FE003E0F96 /* XCRemoteSwiftPackageReference "ContractBridgeUI" */,
+				72E424BD2CA26F3E009F19B5 /* XCRemoteSwiftPackageReference "CardInference" */,
 			);
 			productRefGroup = A214D71229F85EF6003E0F96 /* Products */;
 			projectDirPath = "";
@@ -290,9 +324,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A214D71729F85EF6003E0F96 /* ContentView.swift in Sources */,
-				A214D75029F87701003E0F96 /* BoardView.swift in Sources */,
 				A214D71529F85EF6003E0F96 /* PbnViewerApp.swift in Sources */,
 				A214D74A29F869E4003E0F96 /* ModelData.swift in Sources */,
+				7221B1652CA27058006AE9EC /* BoardView.swift in Sources */,
+				7221B1692CA27062006AE9EC /* InferenceDealViewModel.swift in Sources */,
+				7221B1662CA27058006AE9EC /* InferenceDealView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +415,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Infer images from cards";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -431,6 +469,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Infer images from cards";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -447,6 +487,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PbnViewer/Preview Content\"";
+				DEVELOPMENT_TEAM = FHMN69L8M5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -459,7 +500,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
@@ -483,6 +524,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PbnViewer/Preview Content\"";
+				DEVELOPMENT_TEAM = FHMN69L8M5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -495,7 +537,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
@@ -638,6 +680,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		72E424BD2CA26F3E009F19B5 /* XCRemoteSwiftPackageReference "CardInference" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jlipe/CardInference";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		A214D74229F8619B003E0F96 /* XCRemoteSwiftPackageReference "ContractBridge" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/RalphLipe/ContractBridge";
@@ -657,6 +707,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		7221B16B2CA27199006AE9EC /* CardInference */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72E424BD2CA26F3E009F19B5 /* XCRemoteSwiftPackageReference "CardInference" */;
+			productName = CardInference;
+		};
 		A214D74329F8619B003E0F96 /* ContractBridge */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A214D74229F8619B003E0F96 /* XCRemoteSwiftPackageReference "ContractBridge" */;
